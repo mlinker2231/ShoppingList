@@ -9,9 +9,12 @@
 import UIKit
 
 class NextViewController: UIViewController {
-
+    var textForLabel = ""
+    
+    @IBOutlet weak var Text: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        Text.text = textForLabel
     }
     
 

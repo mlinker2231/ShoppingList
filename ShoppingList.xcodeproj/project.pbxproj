@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148D83C52215D99B00DBB80B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148D83C32215D99B00DBB80B /* Main.storyboard */; };
 		149303CA2213390B00CFC4CA /* Iten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149303C92213390B00CFC4CA /* Iten.swift */; };
 		14A05922220DF0E300C22B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A05921220DF0E300C22B0F /* AppDelegate.swift */; };
 		14A05924220DF0E300C22B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A05923220DF0E300C22B0F /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148D83C42215D99B00DBB80B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		149303C92213390B00CFC4CA /* Iten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iten.swift; sourceTree = "<group>"; };
 		14A0591E220DF0E300C22B0F /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A05921220DF0E300C22B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		14A05920220DF0E300C22B0F /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
+				148D83C32215D99B00DBB80B /* Main.storyboard */,
 				14A05921220DF0E300C22B0F /* AppDelegate.swift */,
 				14A05923220DF0E300C22B0F /* ViewController.swift */,
 				14E10EDC22148AB000B94378 /* NextViewController.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148D83C52215D99B00DBB80B /* Main.storyboard in Resources */,
 				14A0592C220DF0E900C22B0F /* LaunchScreen.storyboard in Resources */,
 				14A05929220DF0E900C22B0F /* Assets.xcassets in Resources */,
 			);
@@ -297,6 +301,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		148D83C32215D99B00DBB80B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				148D83C42215D99B00DBB80B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		14A0592A220DF0E900C22B0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

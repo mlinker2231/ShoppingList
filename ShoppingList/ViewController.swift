@@ -37,6 +37,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "myCell") {
             let currentItemName = items[indexPath.row].name
             cell.textLabel?.text = currentItemName
+            cell.detailTextLabel?.text = "\(items[indexPath.row].quantity)"
             count += 1
             return cell
         }else {
@@ -46,6 +47,10 @@ class ViewController: UIViewController, UITableViewDataSource {
     func createNewItem(NameOfItem name: String,Quantity: Int) -> Item{
         var newItem = Item.init(name: name,quantity: Quantity)
         return newItem
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! NextViewController
+        
     }
 }
 
